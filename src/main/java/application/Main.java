@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		Spark.port(getHerokuAssignedPort());
-		Spark.staticFileLocation("/public");
+		Spark.staticFileLocation("/public"); 
 
 		/*
 		 * TODO : See if someone enters a trailing slash after the path like
